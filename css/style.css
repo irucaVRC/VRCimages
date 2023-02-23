@@ -1,0 +1,66 @@
+html { scroll-behavior: smooth;}
+body {
+overflow-wrap: break-word;
+margin: 0 auto;
+}
+@media screen and (min-width: 1367px) {
+    .pagebody {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .nav-body {
+        margin-left: 25%;
+    }
+    .nav-logo{
+        margin-left: 25%;
+    }
+    .bread-body {
+        margin-left: 25%;
+    }
+
+}
+@media screen and (max-width: 1366px) {
+    .pagebody {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .nav-body {
+        margin-left: 35%;
+    }
+    .bread-body {
+        margin-left: 5%;
+    }
+
+}
+@media screen and (max-width: 766px) {
+    .pagebody {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .nav-body {
+        margin-left: 15%;
+    }
+    .bread-body {
+        margin-left: 5%;
+    }
+}
+
+h1 {
+  border-bottom: solid 3px #cce4ff;
+  position: relative;
+}
+
+h1:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #5472cd;
+  bottom: -3px;
+  width: 20%;
+}
+
+.functions {
+  padding: 1rem 2rem;
+  border-left: 5px solid #000;
+  background: #f4f4f4;
+}
